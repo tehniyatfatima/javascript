@@ -1,6 +1,6 @@
 // chap1 question 1 
 
-let a = "tehniyat Fatima";
+let a = "tehniyat Fatima  Shakir Fareed";
 let b = 2000
 console.log(a+ " "+b);
 
