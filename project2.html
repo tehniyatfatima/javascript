@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title></title>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link href="css/style.css" rel="stylesheet">
+        </head>
+        <body>
+        <h2>Hello user </h2>
+
+        
+        <input id="name" type="text">
+        <button  id="b1" onclick= "greet()" >Greet me  </button>
+
+
+        <script>
+        function greet() {
+                let a = document.getElementById("name").value
+                document.getElementById("demo").innerHTML = a +" " +"GOOD MORNING Today is your interview at 9:30 AM" ;
+                alert( a +" " +"GOOD MORNING  Today is your interview at 9:30 AM");
+
+        }
+                
+        </script>
+        <p id="demo"> </p>
+        
+        
+        </body>
+</html>
