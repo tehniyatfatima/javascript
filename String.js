@@ -17,5 +17,6 @@ console.log(name[10])
 
 let student1 = "Tehniyat Fatima"
 let student2 = "Adeena Hussain"
-let sentance = ${student1} 'and' ${student2} 'are friends' 
-console.log(sentance)
+let sentance = `${student1} and ${student2} are friends`
+console.log(sentance);
+
