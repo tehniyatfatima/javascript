@@ -5,8 +5,4 @@ friends[7]="Mahnoor"
 console.log(friends)
 console.log(friends.length)
 
-// quick quiz 
-for (let a in friends){
-        console.log(a)
-};
         
